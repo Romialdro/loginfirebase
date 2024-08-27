@@ -1,0 +1,66 @@
+body{
+    color: rgb(239, 234, 240);
+    background-color: black!important;
+}
+/* Estilos para los botones */
+.btn-custom {
+ font-size: 20px; 
+ font-weight: bold;
+ padding: 12px 25px; 
+ border-radius: 50px;
+ transition: all 0.3s ease;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ /* Estilo Google */
+ .google-btn {
+     background: linear-gradient(to right, #4285F4, #34A853, #FBBC05, #EA4335);
+     color: white;
+     border: none;
+ }
+ .google-btn:hover {
+     background: linear-gradient(to right, #357ae8, #2d9b46, #e3b100, #c53929);
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+ }
+ /* Estilo Facebook */
+ .facebook-btn {
+     background-color: #3b5998;
+     color: white;
+     border: none;
+ }
+ .facebook-btn:hover {
+     background-color: #2d4373;
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+ }
+ /* Estilo GitHub */
+ .github-btn {
+     background-color: #333;
+     color: white;
+     border: none;
+ }
+ .github-btn:hover {
+     background-color: #24292e;
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+ }
+ /* Estilos para los iframes */
+ iframe {
+     width: 100%;
+     height: 500px; 
+     border: none;
+     border-radius: 10px;
+     margin-top: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .post-list-item {
+    border: 1px solid #ddd;
+    font-size: large;
+    color:#101114;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #bd9fea;
+  }
+  
